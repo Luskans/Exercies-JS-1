@@ -71,8 +71,11 @@ alert("La table de multiplication est : "+"\n"+calcul(number));*/
 // EXERCICE 10
 /*let word = prompt("Entrez un mot");
 let table = word.split('');
-let newTable = [];
-alert(table);*/
+let result = '';
+table.forEach(character => {
+    result += character+'\n';
+})
+alert(result);*/
 
 // EXERCICE 11
 /*let number = prompt("Entrez un nombre compris entre 0 et 10");
@@ -93,10 +96,10 @@ if (number === 5) {
 }*/
 
 // EXERCICE 12
-let result = 0;
+/*let result = 0;
 function calcul(a) {
     result = a*a;
     return result;
 }
 let number = prompt("Entrez un nombre");
-alert(`Le carré de ${number} est ${calcul(number)}`);
+alert(`Le carré de ${number} est ${calcul(number)}`);*/
